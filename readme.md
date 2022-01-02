@@ -1,14 +1,23 @@
-Step to run application:
-Step 1:	Create the copy of the project.
-Step 2: Open command prompt and change your current path
-to folder where you can find 'app.py' file.
-Step 3: Create environment by command given below-
-conda create -name <environment name>
-Step 4: Activate environment by command as follows-
-conda activate <environment name>
-Step 5: Use command below to install required dependencies-
-python -m pip install -r requirements.txt
-Step 6: Run application by command;
-python app.py
-You will get url copy it and paste in browser.
-Step 7: You have sample_data folder where you can get images to test.
+# Project - Intel-Image-Classification-Flask-App-Using-Deep-Learning
+
+# Introduction
+We will be working on Intel Images, i.e., images of building forest, street, etc.
+
+We will build a convolutional neural network and train it on these images. This is a multi-class classification problem and we are solving this using keras.
+
+# Project Flow
+
+1) Load the data into pandas dataframe
+
+2) Visualize the images we are working on
+
+3) Converting images to numpy array and normalize it
+
+4) Preprocessing data - checking class imbalanceness, performing one-hot-encoding, etc.
+
+5) Creating model architecture and fitting it to our data
+
+6) Finally analysing the model results on test data
+
+7) Integrating the model as web app using Flask
+
