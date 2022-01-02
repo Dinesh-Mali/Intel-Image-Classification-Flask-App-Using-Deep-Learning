@@ -19,5 +19,5 @@ We will build a convolutional neural network and train it on these images. This 
 
 6) Finally analysing the model results on test data
 
-7) Integrating the model as web app using Flask
+7) Integrating the model as web app using Flask 
 
